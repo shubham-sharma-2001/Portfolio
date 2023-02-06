@@ -1,0 +1,60 @@
+.Service{
+    /* border: 3px solid saddlebrown; */
+    display: flex;
+    margin-top: 6rem;
+    position: relative;
+  padding: 0 2rem 0 2rem;
+  height: 90vh;
+  /* gap: 2rem; */
+  flex: 1;
+  gap: 2rem;
+  
+  /* flex-direction: row; */
+  
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* border: 3px solid black; */
+    max-width: 50%;
+     
+    border: none;
+    flex: 1;
+    gap: .5rem;
+    /* -webkit-box-shadow: 50px 11px 46px 17px rgba(207,170,255,0.37);  */
+/* box-shadow: 50px 11px 46px 17px rgba(207,170,255,0.37); */
+}
+
+
+.awesome>:nth-child(1){
+    color: #181818;
+    font-size: 6.5vh;
+    font-weight: bold;
+}
+.awesome>:nth-child(2){
+    font-size: 5.6vh;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3){
+    font-size: 3vh;
+    color: var(--gray);
+    /* width: 12rem; */
+
+}
+
+.s-button{
+    margin-top: 2rem;
+    width: 5rem;
+    height: 1.5rem;
+}
+.cards{
+    position: relative;
+    
+}
+
+.cards>*{
+    position: absolute;
+}

@@ -1,0 +1,20 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+h1{
+    color: blue;
+}
+
+/* @font-face {
+    font-family: Gumela;
+    src: url('../src/fonts/*');
+} */
+*{
+    /* font-family: 'Fasthand', cursive; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter;
+    font-size: 30px;
+}
+body{
+    margin:0;
+}

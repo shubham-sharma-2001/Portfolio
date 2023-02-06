@@ -1,0 +1,118 @@
+.works{
+    /* border:  3px solid saddlebrown; */
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem ;
+}
+
+.awesome{
+    /* border:  3px solid black; */
+}
+
+.w-right{
+    position:relative;
+    top: 12%;
+}
+.w-mainCircle{
+    left: 9rem;
+    position: relative;
+    width: 14rem;
+    height: 12rem;
+    border-radius: 50%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    left: 2rem;
+    background: white;
+}
+
+ .w-mainCircle>*{
+    position: absolute;
+ }
+ .w-mainCircle>:nth-child(1)
+ {
+    top: 8.4rem;
+    left: 4.4rem;
+    transform: scale(.9);
+
+ }
+ .w-mainCircle>:nth-child(2)
+ {
+    top: 3rem;
+    left: 11rem;
+    transform: scale(.9);
+
+ }
+ .w-mainCircle>:nth-child(3)
+ {
+    top: 3rem;
+    left: 4.4rem;
+    transform: scale(.9);
+
+ }
+ .w-mainCircle>:nth-child(4)
+ {
+    top: -2rem;
+    left: 4.4rem;
+    transform: scale(.9);
+}
+.w-mainCircle>:nth-child(5)
+{
+     transform: scale(.9);
+    top: 3rem;
+    left: -2rem;
+ }
+
+ .w-secCircle{
+    width: 4.3rem;
+    height: 4.3rem;
+    position: absolute;
+    border-radius:100% ;
+    border: 5px solid #ebebeb;
+    background: white;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    
+
+
+ }
+ .w-secCircle>img{
+    width: 3rem;
+ }
+ 
+ .fiver img{
+    width: 2.4rem;
+    margin-top: .8rem;
+}
+
+.amazon img{
+    width: 4rem;
+}
+.upwork img{
+    width: 3rem;
+    margin-top: .6rem;
+}
+.facebook img{
+    width: 3rem;
+    margin-top: .6rem;
+}
+
+.w-backCircle {
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    /* darkMode */
+    z-index: -1;
+  }
+  .blueCircle {
+    background: #1949b8;
+    left: 6rem;
+    top: -2.3rem;
+  }
+  .yellowCircle {
+    background: #f5c32c;
+    left: 6rem;
+    top: 4.3rem;
+  }

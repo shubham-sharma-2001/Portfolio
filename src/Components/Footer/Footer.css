@@ -1,0 +1,36 @@
+.footer img{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    align-items: center;
+    margin-top: 3%;
+    /* flex-direction: column; */
+}
+.footer span{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.f-icon{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+    gap: 1rem;
+    width: 2rem;
+    /* border: 13px solid red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    left: 43%;
+    /* right: 50%; */
+    /* width: 100%; */
+
+
+}
